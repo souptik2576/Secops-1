@@ -21,7 +21,8 @@ jobs:
           path-to-signatures: 'signatures/secops-1/cla.json'
           path-to-document: 'https://gist.github.com/tcgithubadmin/5cff75a1891468b46227632621237b23' # e.g. a CLA or a DCO document
           # branch should not be protected
-          branch: 'main'
+          #branch: 'main' 
+          branch: 'master'
           allowlist: user1,bot*
 
          #below are the optional inputs - If the optional inputs are not given, then default values will be taken
