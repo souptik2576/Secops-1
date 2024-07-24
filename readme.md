@@ -29,10 +29,11 @@ Control Type : Detection & Infrastructure Protection
    cd <project_directory>
    ```
 3. Set up the required AWS resources (CloudWatch, Lambda function, etc.):
-  
+   ```sh
    # Log in to infosec account
    # Use the code to deploy as a template in order to create a cloud formation stackset inside it in ap-south-1 region
    # Add stacks to stackset by selecting multiple OU ids and target accounts to deploy
    # Add the sns topic as 'tcin-cloud-security@toyotaconnected.co.in'
    # Review and enable it
+   ````
 
